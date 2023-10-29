@@ -1,12 +1,22 @@
 navbar_entries:
-  - title: about
-    url: about
+  - title: about me
+    url: Personal
 
   - title: blog
-    url: blog
+    url: Blog
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: archievements
+    url: Archievements
+
+  - title: experiences
+    url: Experiences
+    permalink: /portfolio/archievements
+
+  - title: projects
+    url: Projects
+
+  - title: publications
+    url: Publications
 
 project_entries:
   - title: Project 1
@@ -35,7 +45,7 @@ project_entries:
     url: overview-post
     desc: It also has a scalable vertical list (in case you need it)
 
-old_project_entries:
+publication:
   - title: Soopr
     url: https://www.soopr.co
     desc: Delight your readers - add beautiful share and like buttons easily to your websites 
@@ -68,20 +78,20 @@ footer_entries:
 
 misc_entries:
   - title: this is an example vertical list
-    url: false
+    url: true
 
   - title: you can show or hide using a boolean flag in _config.yml
-    url: false
+    url: true
 
   - title: and you can add data in _data/home.yml
-    url: false
+    url: true
 
   - title: Blog posts
     post_list: true
-    url: false
+    url: true
 
   - title: moonwalk on the Internet
-    url: false
+    url: true
     entries:
       - title: on Github
         url: https://github.com/abhinavs/moonwalk
@@ -90,12 +100,12 @@ misc_entries:
         url: https://www.abhinav.co
 
       - title: this list is scalable and can be nested
-        url: false
+        url: true
         entries:
           - title: this is nested inside a nested list
-            url: false
+            url: true
 
           - title: it is easy to use, see _data/home.yml to see how to configure it.
-            url: false
+            url: true
 
 
