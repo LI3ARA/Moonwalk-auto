@@ -19,16 +19,16 @@ order: 1
 					<div class="table-container">
 					<table>
 						<tr>
-						<td class="first-column"><a href="#" class="button special small">Name</a></td>
-						<td class="second-column"><a href="#" class="button small disable">Pathirage Nipun Deelaka</a></td>
+							<td class="first-column"><a href="#" class="button table_left">Name</a></td>
+							<td class="second-column"><a href="#" class="button table_right">Pathirage Nipun Deelaka</a></td>
 						</tr>
 						<tr>
-						<td class="first-column"><a href="#" class="button special small">Occupation</a></td>
-						<td class="second-column"><a href="#" class="button small disable">Machine Learning Engineer</a></td>
+							<td class="first-column"><a href="#" class="button table_left">Occupation</a></td>
+							<td class="second-column"><a href="#" class="button table_right">Machine Learning Engineer</a></td>
 						</tr>
 						<tr>
-						<td class="first-column"><a href="#" class="button special small">Education</a></td>
-						<td class="second-column"><a href="#" class="button small disable">UoM Undergraduate</a></td>
+							<td class="first-column"><a href="#" class="button table_left">Education</a></td>
+							<td class="second-column"><a href="#" class="button table_right">UoM Undergraduate</a></td>
 						</tr>
 					</table>
 					</div>
@@ -44,7 +44,7 @@ order: 1
 			</div>
 		</div>
 	</section>
-	<section id="one">
+	<section id="two">
 		<div class="inner no-padding">
 			<div class="row">
 				<div class="6u 12u$(small)">
@@ -78,7 +78,7 @@ order: 1
 			</div>
 		</div>
 	</section>
-	<section id='second'>
+	<section id='three'>
 		<div class='inner no-padding'>
 			<header class="major">
 				<h1>Certificates</h1>

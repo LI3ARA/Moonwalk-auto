@@ -11,7 +11,7 @@ permalink: /:categories/:title
 <div id="main">
 	<section id='second'>
 		<div class="inner no-padding">
-            <div class="tag-container">
+            <div class="table-tag-container">
                     <ul class="actions">
                         <li><a href="#" class="button special small disable">Job Title</a><a href="#" class="button small disable">Machine Learning Engineer</a></li>
                         <li><a href="#" class="button special small disable">Company</a><a href="#" class="button small disable">H2O.ai</a></li>

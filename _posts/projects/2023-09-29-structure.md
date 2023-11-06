@@ -11,7 +11,7 @@ permalink: /:categories/:title
 <div id="main">
 	<section id='second'>
 		<div class="inner no-padding">
-			<div class="tag-container">
+			<div class="table-tag-container">
                     <ul class="actions">
                         <li><a href="#" class="button special small disable">Status</a><a href="#" class="button small disable">Completed</a></li>
                         <li><a href="#" class="button special small disable">Type</a><a href="#" class="button small disable">Group</a></li>
