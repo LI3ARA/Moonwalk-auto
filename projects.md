@@ -24,28 +24,26 @@ order: 3
 <!-- Two -->
 
 <section id="two" class="spotlights">
+	<ul class="horizontal-list">
 	{% for post in site.posts %}
 		{% if post.type == 'projects' %}
-			<section>
-				<div class="thumbnail">
-					<a href="{{ site.baseurl }}{{ post.url }}" class="image">
-						<img src="{% link {{ post.image }} %}" alt="" data-position="center center" />
-					</a>
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header class="major">
-							<h3>{{ post.title }}</h3>
-						</header>
-						<p>{{ post.description }} {{ post.categories }}</p>
-						<ul class="actions">
-							<li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Learn more</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
+			<li class="card">
+				<a href="{{ site.baseurl }}{{ post.url }}" class="image">
+				<span class="header">
+					{{ post.title }}
+					{% if post.highlight %}
+						<mark>{{ post.highlight }}</mark>
+					{% endif %}
+				</span>		
+				<hr />
+				<p class="body">
+					{{ post.description }}
+				</p>
+				</a>
+			</li>
 		{% endif %}
 	{% endfor %}
+	</ul>
 </section>
 
 </div>
