@@ -33,3 +33,28 @@ layout: home
   {% include card_list.html collection=site.data.home.old_project_entries %}
 
 {% endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const customCursor = document.createElement('div');
+    customCursor.className = 'custom-cursor';
+    document.body.appendChild(customCursor);
+
+    document.body.addEventListener('mousemove', (e) => {
+        customCursor.style.left = e.clientX + 'px';
+        customCursor.style.top = e.clientY + 'px';
+    });
+
+    // Add a hover effect to the moonlight table
+    const moonlightTable = document.querySelector('.moonlight-table');
+    moonlightTable.addEventListener('mouseenter', () => {
+        customCursor.style.width = '40px';
+        customCursor.style.height = '40px';
+    });
+
+    moonlightTable.addEventListener('mouseleave', () => {
+        customCursor.style.width = '20px';
+        customCursor.style.height = '20px';
+    });
+});
+</script>

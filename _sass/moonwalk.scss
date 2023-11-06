@@ -292,3 +292,18 @@ a.button.table_right {
   border: 2px solid #FFECB2;
   border-radius: 15px;
 }
+.custom-cursor {
+  position: fixed;
+  overflow: show;
+  width: 200px;
+  height: 200px;
+  background: rgba(82, 110, 203, 0.2); /* Light blue fill color with opacity */
+  border: 20px solid rgba(31, 36, 42, 0.1); /* Translucent circle */
+  // border: none;
+  border-radius: 100%;
+  pointer-events: none; /* Ensure the cursor doesn't interfere with content */
+  transform: translate(-50%, -50%);
+  transition: width 0.2s, height 0.2s, opacity 0.2s;
+  filter: blur(20px); /* Apply a blur effect to the border */
+  z-index: auto; /* Place the cursor underneath other content */
+}
