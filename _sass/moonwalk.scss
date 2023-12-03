@@ -282,15 +282,20 @@ a.learnMoreButton:hover {
   color: #1f242A;
 }
 // Table data
+// .table_right{
+
+// }
 a.button.table_left {
   text-decoration: none;
   border: 2px solid #FFECB2;
   border-radius: 15px;
+  padding: 9px;
 }
 a.button.table_right {
   text-decoration: none;
   border: 2px solid #FFECB2;
   border-radius: 15px;
+  padding: 9px;
 }
 .custom-cursor {
   position: fixed;

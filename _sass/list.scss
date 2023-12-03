@@ -28,6 +28,8 @@ ul.horizontal-list {
   background-color: var(--bg-secondary);
   margin-bottom: 0.8em;
   border-radius: 0.5em;
+  perspective: 1000px; /* Set the perspective for 3D effect */
+  scroll-snap-align: start;
 
   .header {
     color: var(--links);
@@ -55,3 +57,6 @@ ul.horizontal-list {
     }
   }
 }
+
+// For card list
+
