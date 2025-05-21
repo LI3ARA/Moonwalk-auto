@@ -1,20 +1,20 @@
 navbar_entries:
-  - title: about me
+  - title: About mMe
     url: Personal
 
-  - title: blog
+  - title: Blog
     url: Blog
 
-  - title: archievements
+  - title: Archievements
     url: Archievements
 
-  - title: experiences
+  - title: Experiences
     url: Experiences
 
-  - title: projects
+  - title: Projects
     url: Projects
 
-  - title: publications
+  - title: Publications
     url: Publications
 
 project_entries:
